@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="todo">   
+    <h1> TODO APPLICATION</h1>
+    <br>
+
+    <input type="text" id="addInput" placeholder="Write Something">
+
+    
+
+    <input type="button" id="add" class="addBtn" value="add" onclick="addlist()">
+    <input type="button" id="delete" class="addBtn" value="delete" onclick="deletelist()">
+    
+    <div class="con">
+    <br>
+    <br>
+    <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  
+
+    <ul id="list">
+        </ul></div>
+    <br>
+    <br>
+    </div></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
